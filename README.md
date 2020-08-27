@@ -1,6 +1,14 @@
 # python-nmap-test
 Simple code to test some functions
 
+## Installation
+Install python3-nmap as described here https://pypi.org/project/python3-nmap/  
+
+Install other dependencies:  
+```
+pip3 install -r requirements.txt
+```
+
 ## Usage:  
 ```
 python3 pingsweep.py -i eth0 | python3 portscan.py -p21,22,80
